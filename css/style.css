@@ -762,12 +762,12 @@ blockquote cite:before {
 /* ======= Line style ======= */
 .line-vr-section {
     position: relative;
-    margin: -45px auto;
+    margin: -5px auto;
     border: 0;
     border-left: 1px solid;
     border-color: #904d30;
     width: 1px;
-    height: 90px;
+    height: 60px;
     z-index: 10;
     opacity: 1;
 }
