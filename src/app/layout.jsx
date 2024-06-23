@@ -1,25 +1,39 @@
+import React from 'react';
 import { Inter } from "next/font/google";
 import Image from "next/image";
 /* == bootstrap == */
-import "./../css/plugins/bootstrap.min.css";
+import {$,jQuery} from 'jquery';
+import "bootstrap/dist/css/bootstrap.min.css";
 /* == owl.carousel == */
-import "./../css/plugins/owl.carousel.min.css";
-import "./../css/plugins/owl.theme.default.min.css";
+import styles from "./css/plugins/owl.carousel.min.css";
+import "./css/plugins/owl.theme.default.min.css";
 /* == animate css == */
-import "./../css/plugins/animate.min.css";
+import "./css/plugins/animate.min.css";
 /* == themify icons ==*/
-import "./../css/plugins/themify-icons.css";
+import "./css/plugins/themify-icons.css";
 /* == et-lineicons icons ==*/
-import "./../css/plugins/et-lineicons.css";
+import "./css/plugins/et-lineicons.css";
 /* == magnific-popup gallery  == */
-import "./../css/plugins/magnific-popup.css";
+import "./css/plugins/magnific-popup.css";
 /* == YouTubePopUp == */
-import "./../css/plugins/YouTubePopUp.css";
+import "./css/plugins/YouTubePopUp.css";
 /* == for booking css == */
-import "./../css/plugins/select2.css";
-import "./../css/plugins/datepicker.css";
+import "./css/plugins/select2.css";
+import "./css/plugins/datepicker.css";
 import "./globals.css";
-import styles from "./page.module.css";
+// import ScriptTag from "./js/jquery-3.6.3.min.js";
+// import "./js/popper.min.js";
+// import "./js/bootstrap.min.js";
+// import "./js/scrollIt.min.js";
+// import "./js/jquery.waypoints.min.js";
+// import "./js/owl.carousel.min.js";
+// import "./js/jquery.stellar.min.js";
+// import "./js/jquery.magnific-popup.js";
+// import "./js/YouTubePopUp.js";
+// import "./js/select2.js";
+// import "./js/jquery.stellar.min.js";
+// import "./js/datepicker.js";
+// import "./js/custom.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,8 +46,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -44,24 +58,22 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
         />
-        <link rel="stylesheet" href="css/plugins.css" />
-        <link rel="stylesheet" href="css/style.css" />
       </head>
         <body className={inter.className}>{children}
-          <script src="js/jquery-3.6.3.min.js"></script>
-          <script src="js/jquery-migrate-3.0.0.min.js"></script>
-          <script src="js/modernizr-2.6.2.min.js"></script>
-          <script src="js/popper.min.js"></script>
-          <script src="js/bootstrap.min.js"></script>
-          <script src="js/scrollIt.min.js"></script>
-          <script src="js/jquery.waypoints.min.js"></script>
-          <script src="js/owl.carousel.min.js"></script>
-          <script src="js/jquery.stellar.min.js"></script>
-          <script src="js/jquery.magnific-popup.js"></script>
-          <script src="js/YouTubePopUp.js"></script>
-          <script src="js/select2.js"></script>
-          <script src="js/datepicker.js"></script>
-          <script src="js/custom.js"></script>
+          {/* <scriptTag type="text/javascript" src="./js/jquery-3.6.3.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/jquery-migrate-3.0.0.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/modernizr-2.6.2.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/popper.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/bootstrap.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/scrollIt.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/jquery.waypoints.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/owl.carousel.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/jquery.stellar.min.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/jquery.magnific-popup.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/YouTubePopUp.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/select2.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/datepicker.js"></scriptTag>
+          <scriptTag type="text/javascript" src="./js/custom.js"></scriptTag> */}
         </body>
     </html>
   );

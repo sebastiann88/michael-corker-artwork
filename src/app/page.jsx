@@ -1,9 +1,9 @@
+import React from 'react';
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <hr className="line-vr-section" />
       <section className="team section-padding">
         <div className="container">
@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="owl-carousel owl-theme">
                 <div className="item right">
                   <figure>
-                    <img src="img/team/7.jpg" alt="" className="img-fluid" />
+                    <img src="/img/team/7.jpg" alt="" class="img-fluid" />
                   </figure>
                   <div className="caption padding-left">
                     <div className="name">Michael Corker</div>
@@ -94,7 +94,7 @@ export default function Home() {
               className="col-md-5 mt-30 animate-box"
               data-animate-effect="fadeInRight"
             >
-              <img src="img/about.jpg" alt="" />
+              <img src="/img/about.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Home() {
               <div className="item">
                 <div className="post-img">
                   <a href="post.html">
-                    <div className="img"><img src="img/news/1.jpg" alt="" /></div>
+                    <div className="img"><img src="/img/news/1.jpg" alt="" /></div>
                   </a>
                 </div>
                 <div className="cont">
@@ -130,7 +130,7 @@ export default function Home() {
               <div className="item">
                 <div className="post-img">
                   <a href="post.html">
-                    <div className="img"><img src="img/news/2.jpg" alt="" /></div>
+                    <div className="img"><img src="/img/news/2.jpg" alt="" /></div>
                   </a>
                 </div>
                 <div className="cont">
@@ -144,7 +144,7 @@ export default function Home() {
               <div className="item">
                 <div className="post-img">
                   <a href="post.html">
-                    <div className="img"><img src="img/news/3.jpg" alt="" /></div>
+                    <div className="img"><img src="/img/news/3.jpg" alt="" /></div>
                   </a>
                 </div>
                 <div className="cont">
@@ -158,7 +158,7 @@ export default function Home() {
               <div className="item">
                 <div className="post-img">
                   <a href="post.html">
-                    <div className="img"><img src="img/news/4.jpg" alt="" /></div>
+                    <div className="img"><img src="/img/news/4.jpg" alt="" /></div>
                   </a>
                 </div>
                 <div className="cont">
