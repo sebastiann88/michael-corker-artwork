@@ -1,14 +1,14 @@
 {
-  "app/components/MyComponent.tsx -> tw-elements": {
-    "id": "app/components/MyComponent.tsx -> tw-elements",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_tw-elements_js_tw-elements_es_min_js.js"
-    ]
-  },
   "app/layout.tsx -> tw-elements": {
     "id": "app/layout.tsx -> tw-elements",
     "files": [
       "static/chunks/_app-pages-browser_node_modules_tw-elements_js_tw-elements_es_min_js.js"
+    ]
+  },
+  "app/page.tsx -> ./components/Navbar": {
+    "id": "app/page.tsx -> ./components/Navbar",
+    "files": [
+      "static/chunks/_app-pages-browser_src_app_components_Navbar_tsx.js"
     ]
   }
 }

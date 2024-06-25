@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.0",
+    "@heroicons/react": "^2.1.4",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "tinacms": "^1.6.4",
-    "tw-elements": "^2.0.0"
+    "tw-elements": "^2.0.0",
+    "tw-elements-react": "^1.0.0-alpha-end"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.46",
