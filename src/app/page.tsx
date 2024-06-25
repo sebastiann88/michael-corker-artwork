@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import Script from 'next/script'
+import Script from 'next/script';
 
 const DynamicComponent = dynamic(() => import("./components/MyComponent"), {
   ssr: false,
@@ -9,8 +9,10 @@ const DynamicComponent = dynamic(() => import("./components/MyComponent"), {
 const Home = () => {
   return (
     <>
+      <link rel="stylesheet" href="/css/tw-elements.min.css"/>
       <DynamicComponent />
-      <Script type="module" strategy="beforeInteractive" src="/node_modules/tw-elements/src/js/tw-elements.free.umd.js"/>
+      <Script type="text/javascript" strategy="beforeInteractive" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"/>
+      <Script type="text/javascript"  strategy="beforeInteractive" src="/js/tw-elements.umd.min.js"/>
     </>
   );
 };

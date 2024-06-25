@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import "tw-elements/css/tw-elements.min.css";
 import "./globals.css";
 
 function RootLayout({ children }:{children: React.ReactNode}): JSX.Element {
