@@ -27,6 +27,14 @@ main {
     flex: 1;
 }
 
+.acc-border {
+    border-bottom: 1px solid #6b6b6b;
+}
+
+.acc-border button {
+    color: #e5e7eb;
+}
+
 /* ======= Line style ======= */
 .line-vr-section {
     position: relative;

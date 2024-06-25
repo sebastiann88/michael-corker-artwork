@@ -24,7 +24,210 @@ const Artwork = () => {
       />
       <Navbar />
         <main>
-          
+          {/* <!-- hr --> */}
+          <hr className="line-vr-section" />
+          {/* <!-- Image Gallery --> */}
+          <section className="section-padding">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-9">
+                  <div className="section-title">Artwork</div>
+                  <p>
+                    With Bootstrap grid structure, you can show the gallery as you
+                    want. Image gallery lorem ac erat suscipit bibendum. Nullatem
+                    volume mollis sapien vel, conseyer turpeutionyer masin libero
+                    sempe. Fusceler mollis vestibulum.
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                {/* <!-- 2 columns --> */}
+                <div className="col-md-6 gallery-item">
+                  <a href="img/gallery/4.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/4.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 gallery-item">
+                  <a href="img/gallery/10.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/10.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 3 columns --> */}
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/1.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/1.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/2.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/2.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/5.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/5.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="row">
+                {/* <!-- 2 columns --> */}
+                <div className="col-md-6 gallery-item">
+                  <a href="img/gallery/4.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/4.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-6 gallery-item">
+                  <a href="img/gallery/10.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/10.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 3 columns --> */}
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/1.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/1.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/2.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/2.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-4 gallery-item">
+                  <a href="img/gallery/5.jpg" title="" className="img-zoom">
+                    <div className="gallery-box">
+                      <div className="gallery-img">
+                        <img
+                          src="img/gallery/5.jpg"
+                          className="img-fluid mx-auto d-block"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <!-- Price --> */}
+          <section className="price-banner menu-book section-padding">
+            <div className="container-fluid">
+              <div className="row justify-content-center">
+                <div className="col-md-7 valign">
+                  <div className="content">
+                    <div className="menu-list">
+                      <div className="item">
+                        <div className="flex">
+                          <div className="title">Tattooing</div>
+                          <div className="price">$60</div>
+                        </div>
+                        <div className="dots"></div>
+                      </div>
+                    </div>
+                    <div className="menu-list">
+                      <div className="item">
+                        <div className="flex">
+                          <div className="title">Tattoo Cover Up</div>
+                          <div className="price">$45</div>
+                        </div>
+                        <div className="dots"></div>
+                      </div>
+                    </div>
+                    <div className="menu-list">
+                      <div className="item">
+                        <div className="flex">
+                          <div className="title">Piercing</div>
+                          <div className="price">$30</div>
+                        </div>
+                        <div className="dots"></div>
+                      </div>
+                    </div>
+                    <div className="menu-list">
+                      <div className="item">
+                        <div className="flex">
+                          <div className="title">Laser Removal</div>
+                          <div className="price">$75</div>
+                        </div>
+                        <div className="dots"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
       <Footer />
       <Script type="text/javascript" strategy="beforeInteractive" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"/>

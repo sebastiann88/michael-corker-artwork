@@ -11,7 +11,6 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 
 // const DynamicComponent = dynamic(() => import("./components/Navbar"), {
@@ -54,7 +53,7 @@ const Home = () => {
                           neque miss blue hendren mavition duru sapien mana amenta the
                           mollis.
                         </p>
-                        <a href="about.html" classNameName="btn-curve btn-1 mt-10"
+                        <a href="/about" className="btn-curve btn-1 mt-10"
                           ><span>Learn More</span></a
                         >
                       </div>
