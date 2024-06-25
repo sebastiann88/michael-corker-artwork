@@ -1,7 +1,9 @@
 "use client";
 import React, { useEffect } from 'react';
 import type { Metadata } from "next";
+import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 function RootLayout({ children }:{children: React.ReactNode}): JSX.Element {
@@ -15,9 +17,7 @@ function RootLayout({ children }:{children: React.ReactNode}): JSX.Element {
 
   return (
     <html lang="en">
-      <body>{children}
-        <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

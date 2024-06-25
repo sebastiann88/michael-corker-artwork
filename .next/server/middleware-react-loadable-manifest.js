@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"app/components/MyComponent.tsx -> tw-elements\":{\"id\":\"app/components/MyComponent.tsx -> tw-elements\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_tw-elements_js_tw-elements_es_min_js.js\"]},\"app/layout.tsx -> tw-elements\":{\"id\":\"app/layout.tsx -> tw-elements\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_tw-elements_js_tw-elements_es_min_js.js\"]}}"
