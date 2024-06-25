@@ -11,8 +11,9 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import AboutMike from "@/components/AboutMike";
 import Accordion from "@/components/Accordion";
+import Footer from "@/components/Footer";
 
 const About = () => {
   return (
@@ -56,57 +57,7 @@ const About = () => {
               </div>
             </div>
           </section>
-          {/* <!-- About --> */}
-          <section className="about section-padding">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-7 animate-box" data-animate-effect="fadeInLeft">
-                  <div className="section-subtitle">Michael Corker</div>
-                  <div className="section-title white">My Story</div>
-                  <p>
-                    Tattoo viverra tristique usto duis vitae diam neque nivamus aestan
-                    the artine arinian aten mis viverra nec lacus nedana duru edino
-                    setlie suscipe curas tristique inila duman aten elit finibus
-                    vivera alacus fermen. Lorem arena nuam enim mi obortis esen the
-                    uctus cumsan solden malisuametion ametion in the auctor orci done
-                    vitae.
-                  </p>
-                  <ul className="about-list list-unstyled">
-                    <li>
-                      <div className="about-list-icon">
-                        <span className="ti-check"></span>
-                      </div>
-                      <div className="about-list-text">
-                        <p>We're professional and certified tattoo</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="about-list-icon">
-                        <span className="ti-check"></span>
-                      </div>
-                      <div className="about-list-text">
-                        <p>We use quality products to make you look perfect</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="about-list-icon">
-                        <span className="ti-check"></span>
-                      </div>
-                      <div className="about-list-text">
-                        <p>We care about our customers satisfaction</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div
-                  className="col-md-5 mt-30 animate-box"
-                  data-animate-effect="fadeInRight"
-                >
-                  <img src="img/about.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </section>
+          <AboutMike />
           {/* <!-- hr --> */}
           <hr className="line-vr-section" />
           {/* <!-- Services --> */}

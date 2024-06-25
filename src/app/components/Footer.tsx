@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 const navigation = {
   solutions: [
     { name: 'Marketing', href: '#' },

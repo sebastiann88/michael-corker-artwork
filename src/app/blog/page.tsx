@@ -11,12 +11,12 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 
 const Blog = () => {
   return (
     <>
-      {/* <link rel="stylesheet" href="/css/tw-elements.min.css"/> */}
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
@@ -52,21 +52,21 @@ const Blog = () => {
           <section className="blog2 section-padding bg-blck">
             <div className="container">
               <div className="row">
-                <div className="col-md-8">
+                <main className="col-md-8">
                   <div className="row">
                     <div className="col-md-12">
                       <div className="item">
                         <div className="post-img">
-                          <a href="post.html">
+                          <a href="/post">
                             <img src="img/news/1.jpg" alt="" />
                           </a>
                           <div className="date">
-                            <a href="post.html"> <span>Dec</span> <i>29</i> </a>
+                            <a href="/post"> <span>Dec</span> <i>29</i> </a>
                           </div>
                         </div>
                         <div className="post-cont">
                           <a href="blog.html"><span className="tag">Blog</span></a>
-                          <h5><a href="post.html">Top Ten Tattoo Styles</a></h5>
+                          <h5><a href="/post">Top Ten Tattoo Styles</a></h5>
                           <p className="mb-3">
                             Lorem ipsum potenti fringilla pretium ipsum non blandi className="mb-3"t.
                             Vivamus eget nisi non mi iaculis iaculis imperie quiseros
@@ -75,7 +75,7 @@ const Blog = () => {
                             mis nec est aliquam, a tincidunt eros iacu suscipit risus
                             eu ullamcoren.
                           </p>
-                          <a href="post.html" className="btn-curve btn-1"
+                          <a href="/post" className="btn-curve btn-1"
                             ><span>Read More</span></a
                           >
                         </div>
@@ -84,16 +84,16 @@ const Blog = () => {
                     <div className="col-md-12">
                       <div className="item">
                         <div className="post-img">
-                          <a href="post.html">
+                          <a href="/post">
                             <img src="img/news/2.jpg" alt="" />
                           </a>
                           <div className="date">
-                            <a href="post.html"> <span>Dec</span> <i>27</i> </a>
+                            <a href="/post"> <span>Dec</span> <i>27</i> </a>
                           </div>
                         </div>
                         <div className="post-cont">
                           <a href="blog.html"><span className="tag">Blog</span></a>
-                          <h5><a href="post.html">Best Tattoo Back Ideas</a></h5>
+                          <h5><a href="/post">Best Tattoo Back Ideas</a></h5>
                           <p className="mb-3">
                             Lorem ipsum potenti fringilla pretium ipsum non blandi className="mb-3"t.
                             Vivamus eget nisi non mi iaculis iaculis imperie quiseros
@@ -102,7 +102,7 @@ const Blog = () => {
                             mis nec est aliquam, a tincidunt eros iacu suscipit risus
                             eu ullamcoren.
                           </p>
-                          <a href="post.html" className="btn-curve btn-1"
+                          <a href="/post" className="btn-curve btn-1"
                             ><span>Read More</span></a
                           >
                         </div>
@@ -111,17 +111,17 @@ const Blog = () => {
                     <div className="col-md-12">
                       <div className="item">
                         <div className="post-img">
-                          <a href="post.html">
+                          <a href="/post">
                             <img src="img/news/3.jpg" alt="" />
                           </a>
                           <div className="date">
-                            <a href="post.html"> <span>Dec</span> <i>25</i> </a>
+                            <a href="/post"> <span>Dec</span> <i>25</i> </a>
                           </div>
                         </div>
                         <div className="post-cont">
                           <a href="blog3.html"><span className="tag">Blog</span></a>
                           <h5>
-                            <a href="post.html">Best Wrap Around Tattoo Ideas</a>
+                            <a href="/post">Best Wrap Around Tattoo Ideas</a>
                           </h5>
                           <p className="mb-3">
                             Lorem ipsum potenti fringilla pretium ipsum non blandit.
@@ -131,7 +131,7 @@ const Blog = () => {
                             mis nec est aliquam, a tincidunt eros iacu suscipit risus
                             eu ullamcoren.
                           </p>
-                          <a href="post.html" className="btn-curve btn-1"
+                          <a href="/post" className="btn-curve btn-1"
                             ><span>Read More</span></a
                           >
                         </div>
@@ -152,105 +152,14 @@ const Blog = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="blog2-sidebar row">
-                    <div className="col-md-12">
-                      <div className="widget search">
-                        <form>
-                          <input
-                            type="text"
-                            name="search"
-                            placeholder="Type here ..."
-                          />
-                          <button type="submit">
-                            <i className="ti-search" aria-hidden="true"></i>
-                          </button>
-                        </form>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="widget">
-                        <div className="widget-title">
-                          <h6>Recent Posts</h6>
-                        </div>
-                        <ul className="recent">
-                          <li>
-                            <div className="thum">
-                              <img src="img/news/1.jpg" alt="" />
-                            </div>
-                            <a href="post.html">Top Ten Tattoos Styles</a>
-                          </li>
-                          <li>
-                            <div className="thum">
-                              <img src="img/news/2.jpg" alt="" />
-                            </div>
-                            <a href="post.html">Best Tattoo Back Ideas</a>
-                          </li>
-                          <li>
-                            <div className="thum">
-                              <img src="img/news/3.jpg" alt="" />
-                            </div>
-                            <a href="post.html">Best Wrap Around Tattoo Ideas</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="widget">
-                        <div className="widget-title">
-                          <h6>Archives</h6>
-                        </div>
-                        <ul>
-                          <li><a href="#">December 2023</a></li>
-                          <li><a href="#">November 2023</a></li>
-                          <li><a href="#">October 2023</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="widget">
-                        <div className="widget-title">
-                          <h6>Categories</h6>
-                        </div>
-                        <ul>
-                          <li>
-                            <a href="#"><i className="ti-angle-right"></i>Tattooing</a>
-                          </li>
-                          <li>
-                            <a href="#"><i className="ti-angle-right"></i>Piercing</a>
-                          </li>
-                          <li>
-                            <a href="#"
-                              ><i className="ti-angle-right"></i>Laser Removal</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="widget">
-                        <div className="widget-title">
-                          <h6>Tags</h6>
-                        </div>
-                        <ul className="tags">
-                          <li><a href="#">Tattooing</a></li>
-                          <li><a href="#">Piercing</a></li>
-                          <li><a href="#">Laser</a></li>
-                          <li><a href="#">Care</a></li>
-                          <li><a href="#">Removal</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </main>
+                <Sidebar />
               </div>
             </div>
           </section>
         </main>
       <Footer />
       <Script type="text/javascript" strategy="beforeInteractive" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"/>
-      {/* <Script type="text/javascript"  strategy="beforeInteractive" src="/js/tw-elements.umd.min.js"/> */}
     </>
   );
 };
