@@ -11,7 +11,6 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import Accordion from "@/components/Accordion";
 

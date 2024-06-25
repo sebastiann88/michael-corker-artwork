@@ -1459,6 +1459,10 @@ hr {
 /* ======= Page Header style ======= */
 .banner-header {
     padding: 160px 0;
+    background-image: url('/img/slider/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 10px;
 }
 .banner-header.full-height {
     min-height: 100vh;

@@ -11,7 +11,6 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 
 const Blog = () => {
@@ -28,7 +27,7 @@ const Blog = () => {
           <section
             className="banner-header section-padding valign bg-img bg-fixed"
             data-overlay-dark="2"
-            data-background="img/slider/1.jpg"
+            data-background="/img/slider/1.jpg"
           >
             <div className="container">
               <div className="row">
@@ -49,8 +48,6 @@ const Blog = () => {
               </div>
             </div>
           </section>
-          {/* <!-- hr --> */}
-          <hr className="line-vr-section" />
           {/* <!-- Blog --> */}
           <section className="blog2 section-padding bg-blck">
             <div className="container">
@@ -70,8 +67,8 @@ const Blog = () => {
                         <div className="post-cont">
                           <a href="blog.html"><span className="tag">Blog</span></a>
                           <h5><a href="post.html">Top Ten Tattoo Styles</a></h5>
-                          <p>
-                            Lorem ipsum potenti fringilla pretium ipsum non blandit.
+                          <p className="mb-3">
+                            Lorem ipsum potenti fringilla pretium ipsum non blandi className="mb-3"t.
                             Vivamus eget nisi non mi iaculis iaculis imperie quiseros
                             sevin elentesque habitant morbi tristique senectus et
                             netus et malesuada fames ac turpis enesta mauris suscipit
@@ -97,8 +94,8 @@ const Blog = () => {
                         <div className="post-cont">
                           <a href="blog.html"><span className="tag">Blog</span></a>
                           <h5><a href="post.html">Best Tattoo Back Ideas</a></h5>
-                          <p>
-                            Lorem ipsum potenti fringilla pretium ipsum non blandit.
+                          <p className="mb-3">
+                            Lorem ipsum potenti fringilla pretium ipsum non blandi className="mb-3"t.
                             Vivamus eget nisi non mi iaculis iaculis imperie quiseros
                             sevin elentesque habitant morbi tristique senectus et
                             netus et malesuada fames ac turpis enesta mauris suscipit
@@ -126,7 +123,7 @@ const Blog = () => {
                           <h5>
                             <a href="post.html">Best Wrap Around Tattoo Ideas</a>
                           </h5>
-                          <p>
+                          <p className="mb-3">
                             Lorem ipsum potenti fringilla pretium ipsum non blandit.
                             Vivamus eget nisi non mi iaculis iaculis imperie quiseros
                             sevin elentesque habitant morbi tristique senectus et

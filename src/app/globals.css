@@ -35,6 +35,19 @@ main {
     color: #e5e7eb;
 }
 
+.banner-header h1 {
+    margin-bottom: 0;
+}
+
+.banner-header h2 {
+    margin-bottom: 0.25em;
+}
+
+.text-area {
+    padding: 15px 40px 15px 15px;
+    margin-bottom: 15px;
+}
+
 /* ======= Line style ======= */
 .line-vr-section {
     position: relative;

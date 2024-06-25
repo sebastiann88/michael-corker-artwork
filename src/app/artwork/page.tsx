@@ -11,8 +11,8 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
+import Lightbox from "@/components/Lightbox";
 
 const Artwork = () => {
   return (
@@ -24,13 +24,11 @@ const Artwork = () => {
       />
       <Navbar />
         <main>
-          {/* <!-- hr --> */}
-          <hr className="line-vr-section" />
           {/* <!-- Image Gallery --> */}
           <section className="section-padding">
             <div className="container">
               <div className="row">
-                <div className="col-md-9">
+                <div className="col-md-9 mb-11">
                   <div className="section-title">Artwork</div>
                   <p>
                     With Bootstrap grid structure, you can show the gallery as you
@@ -41,143 +39,7 @@ const Artwork = () => {
                 </div>
               </div>
               <div className="row">
-                {/* <!-- 2 columns --> */}
-                <div className="col-md-6 gallery-item">
-                  <a href="img/gallery/4.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/4.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-6 gallery-item">
-                  <a href="img/gallery/10.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/10.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 3 columns --> */}
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/1.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/1.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/2.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/2.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/5.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/5.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="row">
-                {/* <!-- 2 columns --> */}
-                <div className="col-md-6 gallery-item">
-                  <a href="img/gallery/4.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/4.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-6 gallery-item">
-                  <a href="img/gallery/10.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/10.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 3 columns --> */}
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/1.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/1.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/2.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/2.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4 gallery-item">
-                  <a href="img/gallery/5.jpg" title="" className="img-zoom">
-                    <div className="gallery-box">
-                      <div className="gallery-img">
-                        <img
-                          src="img/gallery/5.jpg"
-                          className="img-fluid mx-auto d-block"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                <Lightbox />
               </div>
             </div>
           </section>

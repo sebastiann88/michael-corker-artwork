@@ -24,8 +24,6 @@ const Contact = () => {
       />
       <Navbar />
         <main>
-          {/* <!-- hr --> */}
-          <hr className="line-vr-section" />
           {/* <!-- Contact --> */}
           <section className="contact section-padding">
             <div className="container">
@@ -111,6 +109,7 @@ const Contact = () => {
                       </div>
                       <div className="col-md-12 form-group">
                         <textarea
+                          className="text-area"
                           name="message"
                           id="message"
                           cols="30"

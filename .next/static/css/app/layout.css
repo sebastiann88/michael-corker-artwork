@@ -2450,6 +2450,10 @@ hr {
 /* ======= Page Header style ======= */
 .banner-header {
     padding: 160px 0;
+    background-image: url('/img/slider/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 10px;
 }
 .banner-header.full-height {
     min-height: 100vh;
@@ -5960,6 +5964,9 @@ video {
   white-space: nowrap;
   border-width: 0;
 }
+.visible {
+  visibility: visible;
+}
 .absolute {
   position: absolute;
 }
@@ -6018,6 +6025,12 @@ video {
 .mb-0 {
   margin-bottom: 0px;
 }
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -6038,9 +6051,6 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-60 {
-  margin-top: 15rem;
 }
 .block {
   display: block;
@@ -6077,6 +6087,9 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.h-screen {
+  height: 100vh;
 }
 .w-10 {
   width: 2.5rem;
@@ -6272,6 +6285,10 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -6453,6 +6470,19 @@ main {
 
 .acc-border button {
     color: #e5e7eb;
+}
+
+.banner-header h1 {
+    margin-bottom: 0;
+}
+
+.banner-header h2 {
+    margin-bottom: 0.25em;
+}
+
+.text-area {
+    padding: 15px 40px 15px 15px;
+    margin-bottom: 15px;
 }
 
 /* ======= Line style ======= */
