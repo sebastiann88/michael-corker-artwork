@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -19,30 +20,36 @@ export default function Navbar() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <nav className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                    <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
-                      Dashboard
-                    </a>
-                    <a
-                      href="#"
+                    <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
+                      Home
+                    </Link>
+                    <Link
+                      href="/about"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Team
-                    </a>
-                    <a
-                      href="#"
+                      About
+                    </Link>
+                    <Link
+                      href="/artwork"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Projects
-                    </a>
-                    <a
-                      href="#"
+                      Artwork
+                    </Link>
+                    <Link
+                      href="/blog"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Calendar
-                    </a>
-                  </div>
+                      Blog
+                    </Link>
+                    <Link
+                      href="/contact"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                      Contact
+                    </Link>
+                  </nav>
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:block">

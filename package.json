@@ -11,10 +11,14 @@
   "dependencies": {
     "@headlessui/react": "^2.1.0",
     "@heroicons/react": "^2.1.4",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
     "module-alias": "^2.2.3",
     "next": "14.2.4",
+    "owl.carousel": "^2.3.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-owl-carousel": "^2.3.3",
     "tinacms": "^1.6.4",
     "tw-elements": "^2.0.0",
     "tw-elements-react": "^1.0.0-alpha-end"

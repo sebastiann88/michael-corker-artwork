@@ -1,20 +1,32 @@
 {
-  "../node_modules/tw-elements-react/dist/js/tw-elements-react.es.min.js -> chart.js": {
-    "id": "../node_modules/tw-elements-react/dist/js/tw-elements-react.es.min.js -> chart.js",
+  "app/about/page.tsx -> react-owl-carousel": {
+    "id": "app/about/page.tsx -> react-owl-carousel",
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_chart_js_dist_chart_mjs.js"
+      "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   },
-  "../node_modules/tw-elements-react/dist/js/tw-elements-react.es.min.js -> chartjs-plugin-datalabels": {
-    "id": "../node_modules/tw-elements-react/dist/js/tw-elements-react.es.min.js -> chartjs-plugin-datalabels",
+  "app/artwork/page.tsx -> react-owl-carousel": {
+    "id": "app/artwork/page.tsx -> react-owl-carousel",
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_chartjs-plugin-datalabels_dist_chartjs-plugin-datalabels_esm_js.js"
+      "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   },
-  "app/layout.tsx -> tw-elements": {
-    "id": "app/layout.tsx -> tw-elements",
+  "app/blog/page.tsx -> react-owl-carousel": {
+    "id": "app/blog/page.tsx -> react-owl-carousel",
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_tw-elements_js_tw-elements_es_min_js.js"
+      "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+    ]
+  },
+  "app/contact/page.tsx -> react-owl-carousel": {
+    "id": "app/contact/page.tsx -> react-owl-carousel",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+    ]
+  },
+  "app/page.tsx -> react-owl-carousel": {
+    "id": "app/page.tsx -> react-owl-carousel",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   }
 }
