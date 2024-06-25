@@ -8,7 +8,9 @@ const nextConfig = {
                 destination: "/admin/index.html"
             }
         ]
-    }
+    },
+    reactStrictMode: true,
+    swcMinify: true,
 }
 
 export default nextConfig;
