@@ -58,8 +58,8 @@ export default function Form() {
 							className="text-area"
 							name="message"
 							id="message"
-							cols="30"
-							rows="4"
+							cols={30}
+							rows={4}
 							placeholder="Message *"
 							required
 						></textarea>
