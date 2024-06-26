@@ -23,7 +23,6 @@ import Footer from "@/components/Footer";
 const Home = () => {
   return (
     <>
-      {/* <link rel="stylesheet" href="/css/tw-elements.min.css"/> */}
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"

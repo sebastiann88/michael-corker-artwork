@@ -6301,6 +6301,9 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.pb-0 {
+  padding-bottom: 0px;
+}
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -6315,6 +6318,10 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -6331,14 +6338,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .font-extrabold {
   font-weight: 800;
