@@ -101,7 +101,6 @@ export default function Example() {
       </div>
     </footer>
     <Script type="text/javascript" strategy="beforeInteractive" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"/>
-    <Script type="text/javascript" src="/js/js/custom.js"/>
     </>
   )
 }
