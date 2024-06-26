@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import Script from 'next/script';
+
 const navigation = {
   solutions: [
     { name: 'Marketing', href: '#' },
@@ -29,6 +31,7 @@ const navigation = {
 
 export default function Example() {
   return (
+    <>
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
@@ -97,5 +100,8 @@ export default function Example() {
         </div>
       </div>
     </footer>
+    <Script type="text/javascript" strategy="beforeInteractive" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"/>
+    <Script type="text/javascript" src="/js/js/custom.js"/>
+    </>
   )
 }

@@ -35,14 +35,14 @@
       "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   },
-  "app/contact/page.tsx -> react-owl-carousel": {
-    "id": "app/contact/page.tsx -> react-owl-carousel",
+  "app/components/page.tsx -> react-owl-carousel": {
+    "id": "app/components/page.tsx -> react-owl-carousel",
     "files": [
       "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   },
-  "app/page.tsx -> react-owl-carousel": {
-    "id": "app/page.tsx -> react-owl-carousel",
+  "app/contact/page.tsx -> react-owl-carousel": {
+    "id": "app/contact/page.tsx -> react-owl-carousel",
     "files": [
       "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]

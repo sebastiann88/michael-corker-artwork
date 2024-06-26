@@ -3,6 +3,7 @@ import React from "react";
 
 export default function About() {
 	return (
+		<>
 		<section className="about section-padding">
 			<div className="container">
 				<div className="row">
@@ -61,5 +62,7 @@ export default function About() {
 				</div>
 			</div>
 		</section>
+		<hr className="line-vr-section" />
+		</>
 	)
 }
