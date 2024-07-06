@@ -9,7 +9,7 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 // COMPONENTS
 import Navbar from "@/components/Navbar";
 import WelcomeHero from "@/components/WelcomeHero";
-import carousel from "@/components/carousel";
+
 import Intro from "@/components/Intro";
 import About from "@/components/About";
 import Blog from "@/components/Blog";
