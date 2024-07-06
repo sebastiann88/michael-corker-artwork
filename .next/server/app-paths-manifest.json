@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/artwork/page": "app/artwork/page.js",
   "/about/page": "app/about/page.js",
+  "/artwork/page": "app/artwork/page.js",
   "/blog/page": "app/blog/page.js",
   "/contact/page": "app/contact/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/post/page": "app/post/page.js"
+  "/post/page": "app/post/page.js",
+  "/page": "app/page.js"
 }

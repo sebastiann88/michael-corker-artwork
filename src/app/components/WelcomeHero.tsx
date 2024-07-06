@@ -1,16 +1,9 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import { Carousel } from 'react-responsive-carousel';
 import { PageBlocksWelcomeHero } from "tina/__generated__/types";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import { tinaField } from "tinacms/dist/react";
-
-const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
-  ssr: false,
-});
 
 export default function WelcomeHero(props: PageBlocksWelcomeHero) {
   return (

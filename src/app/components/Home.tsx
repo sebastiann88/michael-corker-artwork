@@ -2,10 +2,6 @@
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 
-const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
-  ssr: false,
-});
-
 // COMPONENTS
 import Navbar from "@/components/Navbar";
 import WelcomeHero from "@/components/WelcomeHero";
