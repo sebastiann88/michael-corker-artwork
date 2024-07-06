@@ -61,16 +61,16 @@ export default defineConfig({
                     name: 'message',
                     type: 'rich-text',
                   },
-                  {
-                    name: 'links',
-                    label: "Links",
-                    type: 'object',
-                    list: true,
-                    fields: [
-                      { type:"string", name: "link" },
-                      { type:"string", name: "label" },
-                    ],
-                  },
+                  // {
+                  //   name: 'links',
+                  //   label: "Links",
+                  //   type: 'object',
+                  //   list: true,
+                  //   fields: [
+                  //     { type:"string", name: "link" },
+                  //     { type:"string", name: "label" },
+                  //   ],
+                  // },
                 ],
               },
             ],

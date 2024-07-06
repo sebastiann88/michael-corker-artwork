@@ -7,7 +7,7 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import { tinaField } from "tinacms/dist/react";
 
 const links = [
-  { label: "Explore Artwork", link: "/" },
+  { label: "Explore Artwork", link: "/artwork" },
 ]
 
 export default function WelcomeHero(props: PageBlocksWelcomeHero) {
@@ -29,13 +29,9 @@ export default function WelcomeHero(props: PageBlocksWelcomeHero) {
                       h6: props => <h6 {...props }/>,
                       bold: props => <span className="text-style" { ...props }/>,
                     }} />
-                    {props.links?.map((link) => {
-                      return (
-                        <Link href={link.link || ""} className="btn-curve btn-1">
-                          <span>{link.label}</span>
-                        </Link>
-                      )
-                    })};
+                    <a href="/artwork" className="btn-curve btn-1"
+                      ><span>Explore Artwork</span></a
+                    >
                   </div>
                 </div>
               </div>
@@ -47,10 +43,10 @@ export default function WelcomeHero(props: PageBlocksWelcomeHero) {
   );
 }
 
-{/* {props.links?((link: any) => {
-  return (
-    <Link key={link.link} href={link.link || ""} className="btn-curve btn-1">
-      <span>{link.label}</span>
-    </Link>
-  )
-})}; */}
+ {/* {props.links?.map((link) => {
+   return (
+     <Link href={link.link || ""} className="btn-curve btn-1">
+       <span>{link.label}</span>
+     </Link>
+   )
+ })}; */}
