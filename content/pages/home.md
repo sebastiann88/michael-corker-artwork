@@ -7,6 +7,9 @@ blocks:
       # **Michael Corker**
 
       ## Artwork Collection
+    links:
+      - link: /artwork
+        label: Explore Artwork
     _template: welcomeHero
 ---
 
