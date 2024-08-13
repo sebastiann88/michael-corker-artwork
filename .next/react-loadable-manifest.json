@@ -11,10 +11,38 @@
       "static/chunks/_app-pages-browser_node_modules_chartjs-plugin-datalabels_dist_chartjs-plugin-datalabels_esm_js.js"
     ]
   },
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  "app/artwork/page.tsx -> react-owl-carousel": {
+    "id": 4891,
+    "files": [
+      "static/chunks/7ce798d6-41be25c8188083da.js",
+      "static/chunks/891.e5fe6981e63e3b72.js"
+    ]
+  },
+  "app/blog/page.tsx -> react-owl-carousel": {
+    "id": 4891,
+    "files": [
+      "static/chunks/7ce798d6-41be25c8188083da.js",
+      "static/chunks/891.e5fe6981e63e3b72.js"
+    ]
+  },
+  "app/contact/page.tsx -> react-owl-carousel": {
+    "id": 4891,
+    "files": [
+      "static/chunks/7ce798d6-41be25c8188083da.js",
+      "static/chunks/891.e5fe6981e63e3b72.js"
+=======
+>>>>>>> Stashed changes
   "app/about/page.tsx -> react-owl-carousel": {
     "id": "app/about/page.tsx -> react-owl-carousel",
     "files": [
       "static/chunks/_app-pages-browser_node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+<<<<<<< Updated upstream
+=======
+>>>>>>> a87a55c1f19ae09d3ce6bb84bc1df41c7e349757
+>>>>>>> Stashed changes
     ]
   }
 }

@@ -9,9 +9,9 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Script from 'next/script';
 
-const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
-  ssr: false,
-});
+// const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
+//   ssr: false,
+// });
 
 // COMPONENTS
 import Navbar from "@/components/Navbar";
@@ -19,7 +19,17 @@ import AboutMike from "@/components/AboutMike";
 import Accordion from "@/components/Accordion";
 import Footer from "@/components/Footer";
 
+<<<<<<< Updated upstream
 export default function About(props: PageBlocksAbout) {
+=======
+<<<<<<< HEAD
+// export default function About(props: PageBlocksAbout) {
+
+export default function About() {
+=======
+export default function About(props: PageBlocksAbout) {
+>>>>>>> a87a55c1f19ae09d3ce6bb84bc1df41c7e349757
+>>>>>>> Stashed changes
   return (
     <>
       {/* <link rel="stylesheet" href="/css/tw-elements.min.css"/> */}
@@ -53,6 +63,13 @@ export default function About(props: PageBlocksAbout) {
                         p: props => <p {...props}/>,
                       }} />
                     </div>
+                    {/* <div className="caption padding-left" data-tina-field={tinaField(props, "message")}>
+                      <TinaMarkdown content={ props.message } components={{
+                        h4: props => <h4 className="name" {...props}/>,
+                        h6: props => <h6 className="subname" {...props}/>,
+                        p: props => <p {...props}/>,
+                      }} />
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -168,4 +185,12 @@ export default function About(props: PageBlocksAbout) {
       {/* <Script type="text/javascript"  strategy="beforeInteractive" src="/js/tw-elements.umd.min.js"/> */}
     </>
   );
+<<<<<<< Updated upstream
 };
+=======
+<<<<<<< HEAD
+};
+=======
+};
+>>>>>>> a87a55c1f19ae09d3ce6bb84bc1df41c7e349757
+>>>>>>> Stashed changes

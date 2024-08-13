@@ -5,8 +5,18 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
+<<<<<<< Updated upstream
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
+=======
+<<<<<<< HEAD
+    "static/0p549IyMDMKmMhyFaTKXd/_buildManifest.js",
+    "static/0p549IyMDMKmMhyFaTKXd/_ssgManifest.js"
+=======
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
+>>>>>>> a87a55c1f19ae09d3ce6bb84bc1df41c7e349757
+>>>>>>> Stashed changes
   ],
   "rootMainFiles": [
     "static/chunks/webpack.js",
