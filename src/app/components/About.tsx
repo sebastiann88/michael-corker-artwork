@@ -4,15 +4,7 @@ import { PageBlocksAbout } from "tina/__generated__/types";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import { tinaField } from "tinacms/dist/react";
 
-<<<<<<< Updated upstream
-export default function PageComponent(props: PageBlocksAbout) {
-=======
-<<<<<<< HEAD
 export default function About(props: PageBlocksAbout) {
-=======
-export default function PageComponent(props: PageBlocksAbout) {
->>>>>>> a87a55c1f19ae09d3ce6bb84bc1df41c7e349757
->>>>>>> Stashed changes
 	return (
 		<>
 		<section className="about section-padding">

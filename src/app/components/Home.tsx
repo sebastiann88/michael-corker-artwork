@@ -23,7 +23,7 @@ export function PageComponent(props: {
 
   return (
     <>
-      <Navbar/>
+      <Navbar />
         <main>
           {data.page.blocks?.map((block, i) => {
             switch (block?.__typename) {
