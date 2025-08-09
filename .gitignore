@@ -1,3 +1,5 @@
-node_modules
 .env
+/vendor
+.history
 .DS_Store
+node_modules
